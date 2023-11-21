@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Login {
+public class sauceLoginSteps {
     WebDriver driver;
     @Given(value = "^Open url \"([^\"]*)\"$")
     public void openUrl(String url) {
